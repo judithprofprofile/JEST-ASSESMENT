@@ -7,16 +7,16 @@ List at least 10 test cases that you would include in an automated test suite.
 Testcases
 -----------------
 
-Successful Login: Verify that a user can log in with a valid email and correct password.
-Successful Sign up: Verify that a user can sign up  with a valid details.
-Unregistered User: Verify that login fails for an email address not present in the database.
-Empty Fields: Verify that appropriate validation messages appear if either the email or password fields are left empty.
-Invalid Email Format: Verify that the system rejects improperly formatted emails (e.g., "judith@con").
-Account Lockout: Verify that the account is temporarily locked after 5 consecutive failed login attempts to prevent brute-force attacks.
-Password Masking: Verify that the password input field obscures characters using dots or asterisks for security.
-Verify that when a user loggs out, they are asked to authenticate and cannot navigate backinto the system..
-Session Persistence: Verify that a user remains logged in after a page refresh if they haven't logged out.
-Password Recovery: Verify that the "Forgot Password" link correctly redirects the user to the reset password workflow.
+1Successful Login: Verify that a user can log in with a valid email and correct password.
+2Successful Sign up: Verify that a user can sign up  with a valid details.
+3Unregistered User: Verify that login fails for an email address not present in the database.
+4Empty Fields: Verify that appropriate validation messages appear if either the email or password fields are left empty.
+5Invalid Email Format: Verify that the system rejects improperly formatted emails (e.g., "judith@con").
+6Account Lockout: Verify that the account is temporarily locked after 5 consecutive failed login attempts to prevent brute-force attacks.
+7Password Masking: Verify that the password input field obscures characters using dots or asterisks for security.
+8Verify that when a user loggs out, they are asked to authenticate and cannot navigate backinto the system..
+9Session Persistence: Verify that a user remains logged in after a page refresh if they haven't logged out.
+10Password Recovery: Verify that the "Forgot Password" link correctly redirects the user to the reset password workflow.
 
 
 
